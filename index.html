@@ -10,6 +10,7 @@
   
   <title>Frontend Mentor | Contact form</title>
 </head>
+<title>Change Background Color</title>
 <body>
   <div class="contact-container">
     <h1>Contact us</h1>
@@ -31,11 +32,11 @@
           <label for="Query Type">Query Type * </label>
             <div class="radio-group">
               <label for="file-upload">
-                <img src="http://127.0.0.1:5500/assets/images/icon-radio-selected.svg" alt="icon-radio-selected">
+                <input type="radio" id="radio" name="radio" value="General Query">
               </label>
               <input type="query" id="Query" name="queryType" value="General Query">  
               <label for="file-upload">
-                <img src="http://127.0.0.1:5500/assets/images/icon-radio-selected.svg" alt="icon-radio-selected">
+                <input type="radio" id="radio" name="radio" value="Support Request">
               </label>   
               <input type="query" id="Query" name="querytype" value="Support Request">
             </div>
@@ -45,7 +46,7 @@
         </div>
         <div class="form-group">
           <Label for="consent">
-            <img src="http://127.0.0.1:5500/assets/images/icon-checkbox-check.svg" alt="icon-checkbox-check">
+            <input type="checkbox" id="checkbox" name="checkbox" value="Support Request">
             I consent to being contacted by the team *
           </Label>
           </div>
